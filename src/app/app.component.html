@@ -3,8 +3,9 @@
     <div>
       <h1>Todo App</h1>
     </div>
-      <app-input-todu (addList)="handleAdd($event)"></app-input-todu>
-      <app-list-todu [dataSource]="dataSource" (deleteItem)="handleDelete($event)" (completedItem)="handleCompeleted($event)" ></app-list-todu>
+    <app-input-todu (addList)="handleAdd($event)"></app-input-todu>
+    <app-list-todu [dataSource]="dataSource" (deleteItem)="handleDelete($event)"
+      (completedItem)="handleCompeleted($event)"></app-list-todu>
 
   </div>
 </div>

@@ -1,6 +1,6 @@
 <div class="list">
   <ul>
-    <li *ngFor="let item of dataSource; let i = index" class="font-italic " >
+    <li *ngFor="let item of dataSource; let i = index" class="font-italic ">
       <span class="{{ (item.completed ? 'done' : '') }}">{{ item.name }}</span>
       <button (click)="handleDelete(i)" class="delete">
         <i class="ti-trash"></i>

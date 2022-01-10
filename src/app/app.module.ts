@@ -14,14 +14,10 @@ import { CompleteComponent } from './complete/complete.component';
     AppComponent,
     InputToduComponent,
     ListToduComponent,
-    CompleteComponent
+    CompleteComponent,
   ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    ReactiveFormsModule
-  ],
+  imports: [BrowserModule, FormsModule, ReactiveFormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

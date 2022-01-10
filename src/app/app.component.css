@@ -1,16 +1,16 @@
-.app{
+.app {
   margin-top: 150px;
   width: 50%;
   height: 700px;
   border: 1px red solid;
   border-radius: 1rem 1rem 1.25rem 1.25rem;
   background-color: rgb(172, 166, 159);
-  background-image: linear-gradient(to right,orange, pink);
+  background-image: linear-gradient(to right, orange, pink);
 }
 h1 {
   padding-top: 20px;
   color: brown;
 }
-.input{
+.input {
   margin: 20px;
 }

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
   dataSource: DataList[] = [];
@@ -12,16 +12,16 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {}
 
-    handleAdd(name: string) {
-      this.dataSource.push({ id: Date.now(), name , completed :false});
-    }
+  handleAdd(name: string) {
+    this.dataSource.push({ id: Date.now(), name, completed: false });
+  }
 
-    handleDelete(index: number) {
-      this.dataSource.splice(index,1);
-    }
-    handleCompeleted(id: number) {
-      this.dataSource[id].completed = !this.dataSource[id].completed;
-    }
+  handleDelete(index: number) {
+    this.dataSource.splice(index, 1);
+  }
+  handleCompeleted(id: number) {
+    this.dataSource[id].completed = !this.dataSource[id].completed;
+  }
 }
 
 export interface DataList {
