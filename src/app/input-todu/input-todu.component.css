@@ -1,0 +1,18 @@
+.input-app {
+  width: 60%;
+  margin-top: 40px;
+  height: 50px;
+  border: 1px red solid ;
+  border-radius: .5rem 0 0 .5rem;
+  font-size: 30px;
+  padding-left: 24px;
+}
+.btn-app {
+  height: 59px;
+  width: 59px;
+  background-color: rgb(255, 255, 255);
+  border: 1px red solid ;
+  border-radius: .5rem .5rem .5rem .5rem;
+  font-size: 30px;
+}
+
